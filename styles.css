@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /*Navigation*/
 .navbar {
   background-color: #131314;

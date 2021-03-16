@@ -1,18 +1,19 @@
 /*Navigation*/
 .navbar {
-background-color: #131314;
+  background-color: #131314;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   font-family: 'Futura';
 }
 
 .GE_Logo {
-height: 50px;
-width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 /*Header*/
-.top-container{
+.top-container {
   padding-top: 50px;
   background-color: #131314;
   display: flex;
@@ -25,16 +26,16 @@ width: 50px;
 }
 
 .grant-eaton-header-text {
-      max-width: 80%;
-      min-width: 40%;
-      height: auto;
-      width: auto;
-    }
+  max-width: 80%;
+  min-width: 40%;
+  height: auto;
+  width: auto;
+}
 
 .self-portrait-column {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .self-portrait {
@@ -44,23 +45,204 @@ justify-content: center;
   width: auto;
   padding-left: 0px;
   padding-right: 0px;
+  transition: transform .2s;
+}
+
+.self-portrait:hover {
+  transform: scale(1.1);
+}
+/*Middle Container*/
+
+.middle-container {
+  background-color: #d50043;
+  font-family: 'futura';
+  height: 100%;
 
 }
 
-/*Middle Container*/
 .about-me-column {
-  background-color: white;
   display: flex;
   align: center;
   align-items: center;
   justify-content: center;
   padding-top: 200px;
 }
-.about-me {
+
+.about-me-title {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  color: white;
+}
+
+.about-me-paragraph {
   display: flex;
   font-family: 'futura';
-  color: #131314;
+  color: white;
   font-size: min(max(2vw, 25px), 22px);
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
+}
+
+.work {
+  margin-top: 100px;
+}
+.work-title {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  color: white;
+}
+
+.screenshot-section {
+  overflow: hidden;
+}
+.screenshot {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 100%;
+  max-width: 672px;
+  height: auto;
+  transition: transform .2s;
+  padding-bottom: 70px;
+}
+.screenshot:hover {
+  transform: scale(1.5);
+}
+
+
+.buttons {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-column {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn .btn-outline-dark {
+  color: white;
+  font-family: 'futura';
+}
+
+.description-column {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+}
+.website-description {
+  display: flex;
+  font-family: 'futura';
+  color: white;
+  font-size: min(max(2vw, 25px), 22px);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.contact {
+margin-top: 250px;
+}
+
+.contact-drawing-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-drawing {
+  display: flex;
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 50px;
+
+}
+.contact-title {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.contact-text-col {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.contact-text {
+  display: flex;
+  font-family: 'futura';
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-align: center;
+}
+
+.contact-information{
+  padding-bottom: 200px;
+}
+
+.email {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.phone {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.phone-number {
+  display: flex;
+  font-family: 'futura';
+  font-size: min(max(2vw, 25px), 22px);
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #131314;
+  height: 100px;
+}
+
+.footer-col {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footer-text {
+  color: white
 }
